@@ -1,0 +1,36 @@
+.search-results-page {
+    min-height: 100vh;
+    background-color: var(--bg-light);
+}
+
+.search-header {
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+.search-header .search-container {
+    margin: 0 auto;
+    box-shadow: none;
+    padding: 1.5rem;
+}
+
+.search-header .input-label {
+    color: var(--text-white);
+}
+
+.search-header .tab-btn {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-header .tab-btn.active {
+    color: white;
+    border-bottom-color: var(--accent-color);
+}
+
+.no-results {
+    text-align: center;
+    padding: 4rem 0;
+    color: var(--text-light);
+    font-size: 1.25rem;
+}

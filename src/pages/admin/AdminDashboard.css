@@ -1,0 +1,88 @@
+.admin-dashboard {
+    padding: 4rem 0;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.admin-header h1 {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.properties-table-container {
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    overflow-x: auto;
+}
+
+.properties-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.properties-table th,
+.properties-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.properties-table th {
+    background-color: var(--bg-light);
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.properties-table tr:hover {
+    background-color: #f9fafb;
+}
+
+.action-btn {
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+    transition: var(--transition);
+}
+
+.edit-btn {
+    background-color: #e5e7eb;
+    color: var(--text-dark);
+}
+
+.edit-btn:hover {
+    background-color: #d1d5db;
+}
+
+.delete-btn {
+    background-color: #fee2e2;
+    color: #ef4444;
+}
+
+.delete-btn:hover {
+    background-color: #fecaca;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-buy {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.status-rent {
+    background-color: #d1fae5;
+    color: #065f46;
+}

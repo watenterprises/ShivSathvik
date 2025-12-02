@@ -1,0 +1,44 @@
+.testimonials-page {
+    padding: 5rem 0;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 3px solid var(--accent-color);
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.testimonial-author {
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.25rem;
+}
+
+.testimonial-role {
+    color: var(--text-light);
+    font-size: 0.875rem;
+}

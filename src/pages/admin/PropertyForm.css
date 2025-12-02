@@ -1,0 +1,49 @@
+.property-form-container {
+    padding: 4rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form-header h1 {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.property-form {
+    background: white;
+    padding: 2.5rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-secondary {
+    background-color: #e5e7eb;
+    color: var(--text-dark);
+}
+
+.btn-secondary:hover {
+    background-color: #d1d5db;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
